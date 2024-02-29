@@ -25,7 +25,7 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web-services'
 	//runtimeOnly 'com.mysql:mysql-connector-j'
 	implementation 'org.postgresql:postgresql:42.7.1'
-	//implementation 'mysql:mysql-connector-java:8.0.26'
+	implementation 'mysql:mysql-connector-java:8.0.26'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	
 	 // this is a security spring dependency
