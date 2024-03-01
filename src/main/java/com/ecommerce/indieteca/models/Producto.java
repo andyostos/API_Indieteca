@@ -44,9 +44,9 @@ public class Producto {
 	@Column(name = "imagen_producto", nullable = false, length = 300)
 	private String imagen_producto;
 	
-	@ManyToOne
+	// @ManyToOne
 	@JoinColumn(name = "id_vendedor", nullable = false)
-	@JsonIgnore
+	// @JsonIgnore
 	private Vendedor vendedor;
 	
 	@OneToMany(mappedBy = "producto")

@@ -47,7 +47,8 @@ public class ProductoService {
 
 	public Producto saveProducto(Producto producto) {
 		// TODO Auto-generated method stub
-		return null;
+		return productoRepository.save(producto);
+		
 	}
 
 	public void deleteProducto(Object id) {
